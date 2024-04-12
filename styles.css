@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    font-family: "Roboto Slab", Arial, Helvetica, sans-serif !important;
+}
+
+.intranetChannel {
+    text-align: center;
+    padding: 10px;
+    background-color: #00283A;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.hov:hover {
+    transform: scale(1.1);
+    transition: transform 0.1s ease;
+    cursor: pointer;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.box img {
+    width: 80px;
+    height: 80px;
+}
+
+.one {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ }
+
+.list{
+    list-style: none;
+    font-size: large;
+}
+.content2 li {
+    margin: 20px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+.twodiv2{
+    background-color: #DD6F29;
+}
+.twodiv3{
+    background-color: #5651E5;
+}
+.twodiv {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.two,
+.three,
+.four {
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.five {
+    display: flex;
+    min-height: 250px;
+    align-items: center;
+    justify-content: space-around;
+     flex-wrap: wrap;
+}
+
+.five div {
+    display: flex;
+    align-items: center;
+}
+
+.RnDInformation {
+    min-height: 250px;
+    text-align: center;
+ }
+
+.rnd,
+.down {
+    text-align: center;
+}
+
+.downloads {
+    display: flex;
+    text-align: center;
+    min-height: 250px;
+    justify-content: space-around;
+     flex-wrap: wrap;
+}
+
+.downloads div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider {
+    width: 100%; 
+    position: relative;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    flex: 0 0 auto;
+    width: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.controls {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.control-btn {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.indicators {
+    text-align: center;
+}
+
+.indicator {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 5px 5px;
+}
+
+.indicator.active {
+    background: #df3c3c;
+}
+
+.notices{
+    text-align: center;
+    padding: 20px 20px 30px 20px;
+    margin: 5px;
+    border: 1px solid black;
+}
+.notices h3{
+    color: #fc7725;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap;   
+}
+.buttons button{
+    margin: 5px;
+    background-color: #01ACED;
+    color: white;
+}
+.slide h3{
+    text-align: center;
+}
+.topbuttons button{
+    height: 32px;
+    background-color: #3B649D;
+    color: white;
+    margin: 10px;
+}
+.custombtn{
+    padding: 0;
+}
+.custombtn img{
+    height: 26px;
+}
+.topbuttons{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    flex-wrap: wrap;
+}
